@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DistriGo Privacy Policy — Learn how we protect your business data with enterprise-grade security.">
+    <title>Privacy Policy — DistriGo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .legal-page { padding: 140px 0 80px; min-height: 100vh; }
+        .legal-card {
+            background: var(--bg-card); border: 1px solid var(--border-glass);
+            border-radius: var(--radius-xl); padding: 60px; max-width: 800px; margin: 0 auto;
+            position: relative; overflow: hidden;
+        }
+        .legal-card::before {
+            content: ''; position: absolute; top: 0; left: 0;
+            width: 300px; height: 300px;
+            background: radial-gradient(circle, var(--accent-glow) 0%, transparent 60%);
+            filter: blur(80px); pointer-events: none; opacity: 0.5;
+        }
+        .legal-card h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 8px; position: relative; }
+        .legal-card .legal-date { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 32px; position: relative; }
+        .legal-card h2 { font-size: 1.25rem; font-weight: 700; margin: 28px 0 12px; color: var(--accent-1); position: relative; }
+        .legal-card p, .legal-card li {
+            font-size: 0.95rem; color: var(--text-secondary); line-height: 1.85; position: relative;
+        }
+        .legal-card ul { padding-left: 20px; margin: 8px 0 16px; }
+        .legal-card li { margin-bottom: 6px; }
+        .legal-back {
+            display: inline-flex; align-items: center; gap: 8px;
+            color: var(--accent-1); font-weight: 600; font-size: 0.9rem;
+            margin-bottom: 28px; transition: var(--transition); position: relative;
+        }
+        .legal-back:hover { transform: translateX(-4px); }
+        .legal-back i { width: 18px; height: 18px; }
+        @media (max-width: 768px) { .legal-card { padding: 32px 20px; } .legal-card h1 { font-size: 1.6rem; } }
+    </style>
+</head>
+<body>
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo"><div class="logo-icon"><i data-lucide="boxes" class="logo-lucide"></i></div><span>DistriGo</span></a>
+            <div class="nav-links">
+                <a href="index.html#features" class="nav-link">Features</a>
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="privacy.html" class="nav-link">Privacy Policy</a>
+                <a href="terms.html" class="nav-link">Terms</a>
+                <a href="index.html#download" class="nav-link nav-link-cta">Download App</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span>
+            </button>
+            <div class="nav-mobile-links" id="nav-mobile-links">
+                <a href="index.html#features" class="nav-mobile-link">Features</a>
+                <a href="index.html#about" class="nav-mobile-link">About</a>
+                <a href="privacy.html" class="nav-mobile-link">Privacy Policy</a>
+                <a href="terms.html" class="nav-mobile-link">Terms</a>
+                <a href="index.html#download" class="nav-mobile-link nav-mobile-link-cta">Get App</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="legal-page">
+        <div class="container">
+            <div class="legal-card">
+                <a href="index.html" class="legal-back"><i data-lucide="arrow-left"></i> Back to Home</a>
+                <h1>Privacy <span class="gradient-text">Policy</span></h1>
+                <p class="legal-date">Last updated: July 2, 2026</p>
+
+                <h2>1. Information We Collect</h2>
+                <p>DistriGo collects only the minimum information necessary to provide our distribution and CRM services:</p>
+                <ul>
+                    <li><strong>Account Information:</strong> Business name, email address, and role designation.</li>
+                    <li><strong>GPS Data:</strong> Location coordinates captured during salesman field visits (only when actively using the tracking feature).</li>
+                    <li><strong>Order Data:</strong> Product catalogs, order details, and invoice records created within the platform.</li>
+                    <li><strong>Analytics Data:</strong> Aggregated business metrics for dashboard reporting.</li>
+                </ul>
+
+                <h2>2. How We Use Your Data</h2>
+                <p>Your data is used exclusively to provide and improve DistriGo's services. We do not sell, rent, or share your data with any third parties. Your business data remains strictly private to your organization.</p>
+
+                <h2>3. Data Security</h2>
+                <p>We employ enterprise-grade security measures including end-to-end encryption, secure cloud infrastructure, and strict access controls. All data transmissions are encrypted using industry-standard TLS protocols.</p>
+
+                <h2>4. Third-Party Services</h2>
+                <p>DistriGo does not integrate any third-party advertising or tracking services. We use Firebase (Google Cloud) solely for secure authentication and data storage, governed by Google's enterprise security standards.</p>
+
+                <h2>5. Data Retention</h2>
+                <p>Your data is retained for as long as your account is active. You may request complete deletion of your data at any time by contacting us.</p>
+
+                <h2>6. Your Rights</h2>
+                <p>You have the right to access, correct, export, or delete your personal and business data. Contact us at any time to exercise these rights.</p>
+
+                <h2>7. Contact</h2>
+                <p>For any privacy-related inquiries, please contact the developer: <strong>Mohib Khorajiya</strong>.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+                <p>&copy; 2026 DistriGo App. Crafted by <strong>Mohib Khorajiya</strong>. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        const navToggle = document.getElementById('nav-toggle');
+        const navMobileLinks = document.getElementById('nav-mobile-links');
+        navToggle.addEventListener('click', () => { navToggle.classList.toggle('active'); navMobileLinks.classList.toggle('open'); });
+    </script>
+</body>
+</html>
